@@ -18,8 +18,8 @@ A simple **Python Password Generator** that allows users to generate secure pass
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/vishesh-banna0/password-generator.git
-cd password-generator
+git clone https://github.com/vishesh-banna0/mini-project.git
+
 ```
 
 ### 2️⃣ Run the Script
