@@ -18,8 +18,8 @@ A simple command-line **To-Do List Manager** built using Python that allows user
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/vishesh-banna0/todo-list-manager.git
-cd todo-list-manager
+git clone https://github.com/vishesh-banna0/mini-project.git
+
 ```
 
 ### 2️⃣ Run the Script
