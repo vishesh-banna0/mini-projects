@@ -18,7 +18,7 @@ A simple command-line **To-Do List Manager** built using Python that allows user
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/todo-list-manager.git
+git clone https://github.com/vishesh-banna0/todo-list-manager.git
 cd todo-list-manager
 ```
 
