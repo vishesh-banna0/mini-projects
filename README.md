@@ -1,6 +1,6 @@
 # 🛠️ Mini Projects Collection
 
-This repository contains **three Python mini-projects** that cover different concepts and functionalities, helping to enhance coding skills through practical applications.
+This repository contains **four Python mini-projects** that cover different concepts and functionalities, helping to enhance coding skills through practical applications.
 
 ---
 
@@ -36,7 +36,7 @@ A simple **Python Password Generator** that allows users to generate secure pass
 
 ---
 
-## 📋 3. Python To-Do List Manager
+## 🗋l 3. Python To-Do List Manager
 A simple **To-Do List Manager** that allows users to add, view, mark complete/incomplete, and delete tasks. The tasks are stored in a JSON file to retain data across sessions.
 
 ### 🔧 Functions Used:
@@ -55,6 +55,23 @@ A simple **To-Do List Manager** that allows users to add, view, mark complete/in
 2. Provide options to **add, view, mark complete/incomplete, and delete** tasks.
 3. Save tasks to the JSON file after every operation.
 4. Display the list of tasks dynamically with status updates.
+
+---
+
+## 🎯 4. Python Pig Dice Game
+A simple **Pig Dice Game** where players take turns rolling a dice, accumulating points while avoiding rolling a 1, which resets their turn score. The first player to reach 50 points wins.
+
+### 🔧 Functions Used:
+- `random.randint()` - Simulates rolling a six-sided die.
+- `isdigit()` - Ensures valid numeric input for the number of players.
+- `enumerate()` - Iterates over players' turns with an index.
+
+### 💡 Approach:
+1. Prompt the user for the number of players (between 2 and 4).
+2. Each player takes turns rolling a dice:
+   - If they roll a **1**, they lose their turn, and their turn score resets.
+   - Otherwise, they accumulate points and decide whether to roll again or hold.
+3. The first player to reach **50 points** wins.
 
 ---
 
