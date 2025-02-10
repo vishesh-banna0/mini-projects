@@ -75,8 +75,32 @@ A simple **Pig Dice Game** where players take turns rolling a dice, accumulating
 
 ---
 
+
+## 🎯 5. Number Guessing Game with AI Hints
+A simple **Number Guessing Game** where the player tries to guess a randomly selected number between 1 and 100. The AI provides hints based on how close the guess is to the target number.
+
+### 🔧 Functions Used:
+- `random.randint()` - Selects a random number between 1 and 100.
+- `int(input())` - Takes user input and converts it to an integer.
+- `range()` - Used for checking proximity of guesses.
+- `try-except` - Handles invalid user inputs gracefully.
+
+### 💡 Approach:
+1. The AI selects a random number between 1 and 100.
+2. The player repeatedly guesses the number until they find the correct one.
+3. The AI provides hints:
+   - "You are very close! Go slightly up/down" for guesses within 3 numbers.
+   - "Too high! Go lower." or "Too low! Go higher." for other cases.
+4. The game continues until the player correctly guesses the number.
+
+---
+
 ## 🤝 Contributing
 Feel free to fork this repository and improve any of the projects! If you find a bug or have a feature request, open an issue.
 
 ---
+
+
+
+
 
